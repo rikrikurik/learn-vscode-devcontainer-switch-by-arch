@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   sample_architecture_aware_devcontainer:
-    image: alpine:edge
+    image: amazonlinux:latest
     container_name: sample_architecture_aware_devcontainer
     volumes:
       - type: bind
